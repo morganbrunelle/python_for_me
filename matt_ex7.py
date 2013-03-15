@@ -4,6 +4,6 @@ print("What is your age?")
 
 answer = int(input())
 
-for x in range(0, answer):
+for x in range(1, answer + 1):
     print(x)
 
