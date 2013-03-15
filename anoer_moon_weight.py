@@ -1,9 +1,11 @@
-#write a program that asks the user what number do you want to square and print that square
+# F = 9/5 * C + 32
+#write a program that asks for a temperature in C and gives it in F
+#pull the printing out of the function and just do the computation
 
-def square(number):
-    print(number * number)
+def temp_conversion(degrees_in_celsius):
+    return (9 / 5 * answer + 32)
 
-print("What number do you want to square?")
+print("Give a temperature in Celsius")
+answer = int(input())
 
-number = int(input())
-square(number)
+print("The temperature in Fahrenheit is %f" % temp_conversion(answer))
